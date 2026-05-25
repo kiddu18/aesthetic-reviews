@@ -422,6 +422,23 @@
       margin-right: auto;
     }
 
+    
+    .product-card-img {
+      max-width: 100%;
+      height: auto;
+      max-height: 350px;
+      border-radius: 12px;
+      margin: 20px auto;
+      display: block;
+      object-fit: contain;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s ease;
+    }
+    .product-card-img:hover {
+      transform: scale(1.02);
+    }
+
     /* Pros & Cons Section */
     .pros-cons-grid {
       display: grid;
@@ -680,6 +697,8 @@
       <div class="product-rating">
         <span>⭐ 4.8</span> &bull; <span>Highly Aesthetic Choice</span>
       </div>
+      
+      <img class="product-card-img" src="images/scrape_mvtjh73.jpg" alt="Aura Micro-Habitat Display">
       
       <p class="product-desc">Transform any space into a mesmerizing living art gallery with the Aura Serenity Micro-Habitat Display, offering an intimate, ever-evolving window into nature's smallest wonders. This exquisite, minimalist design is the ultimate aesthetic life-hack for bringing tranquility and a viral-worthy touch of biophilic elegance into your home or office.</p>
       

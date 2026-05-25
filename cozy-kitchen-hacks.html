@@ -422,6 +422,23 @@
       margin-right: auto;
     }
 
+    
+    .product-card-img {
+      max-width: 100%;
+      height: auto;
+      max-height: 350px;
+      border-radius: 12px;
+      margin: 20px auto;
+      display: block;
+      object-fit: contain;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s ease;
+    }
+    .product-card-img:hover {
+      transform: scale(1.02);
+    }
+
     /* Pros & Cons Section */
     .pros-cons-grid {
       display: grid;
@@ -675,6 +692,7 @@
     
     <!-- Product recommendation grid -->
     <div class="product-card">
+      <img class="product-card-img" src="images/scrape_6duz678.jpg" alt="Cozy Kitchen Hacks">
       <div class="badge">Editor's Choice</div>
       <h3 class="product-title">Eco-Chic Expandable Bamboo Drawer Organizers</h3>
       <div class="product-rating">

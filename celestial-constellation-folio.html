@@ -422,6 +422,23 @@
       margin-right: auto;
     }
 
+    
+    .product-card-img {
+      max-width: 100%;
+      height: auto;
+      max-height: 350px;
+      border-radius: 12px;
+      margin: 20px auto;
+      display: block;
+      object-fit: contain;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s ease;
+    }
+    .product-card-img:hover {
+      transform: scale(1.02);
+    }
+
     /* Pros & Cons Section */
     .pros-cons-grid {
       display: grid;
@@ -571,7 +588,7 @@
     "price": "42.99",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
-    "url": "https://www.amazon.com/dp/B0C7J9K2L4/?tag=thekidd08-20"
+    "url": "https://www.amazon.com/s?k=celestial+constellation+journal+folio&tag=thekidd08-20"
   }
 }
   </script>
@@ -675,6 +692,7 @@
     
     <!-- Product recommendation grid -->
     <div class="product-card">
+      <img class="product-card-img" src="images/scrape_ns45ihw.jpg" alt="Celestial Constellation Folio">
       <div class="badge">Editor's Choice</div>
       <h3 class="product-title">Stellar Insight Journal Folio</h3>
       <div class="product-rating">
@@ -726,7 +744,7 @@
         </div>
       </div>
 
-      <a class="buy-btn" href="https://www.amazon.com/dp/B0C7J9K2L4/?tag=thekidd08-20" target="_blank" rel="noopener noreferrer">
+      <a class="buy-btn" href="https://www.amazon.com/s?k=celestial+constellation+journal+folio&tag=thekidd08-20" target="_blank" rel="noopener noreferrer">
         Shop on Amazon &rarr;
       </a>
     </div>
